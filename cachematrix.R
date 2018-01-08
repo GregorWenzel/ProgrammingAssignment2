@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Programming Assignment 2: Lexical Scoping
 
-## Write a short comment describing this function
+## Creates a special matrix with a cacheable inverse matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
@@ -16,7 +15,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Calculates the inverse matrix of special matrix x
+## if NULL, or returns the cached inverse matrix
 
 cacheSolve <- function(x, ...) {
   result <- x$getInverse()
